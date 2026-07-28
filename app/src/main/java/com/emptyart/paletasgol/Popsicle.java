@@ -26,7 +26,7 @@ public class Popsicle {
     private int imageResourceId;
 
     //popsicles is an array of popsicles
-    public static final Popsicle[] drinks = {
+    public static final Popsicle[] popsicles = {
             new Popsicle("Chicle"," tradicionales helados de palito costarricenses",R.drawable.chicle),
             new Popsicle("Churchill"," tradicionales helados de palito costarricenses",R.drawable.churchill),
             new Popsicle("Pasas"," tradicionales helados de palito costarricenses",R.drawable.pasas),

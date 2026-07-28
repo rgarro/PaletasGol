@@ -2,6 +2,10 @@ package com.emptyart.paletasgol;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.content.Intent;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.view.View;
 /**
  *            |    |    |
  *           )_)  )_)  )_)
@@ -27,5 +31,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //create onItemClickListener
+        AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> listView, View itemView, int position, long id) {
+                if(position == 0){
+                    Intent intent = new Intent(MainActivity.this,PopsicleCategoryActivity.class);
+                    startActivity(intent);
+                }
+            }
+        };
+        //Add the listener to the listView
+        ListView listView = (ListView) findViewById(R.id.list_options);
+        listView.setOnItemClickListener(itemClickListener);
     }
 }
