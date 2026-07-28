@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PaletasGol</string>
+    <string name="paletas_logo">PaletasGol logo</string>
+    <string-array name="options">
+        <item>REDONDOS</item>
+        <item>PALETAS</item>
+    </string-array>
 </resources>
