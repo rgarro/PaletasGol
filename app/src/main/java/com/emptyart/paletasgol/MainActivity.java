@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> listView, View itemView, int position, long id) {
                 if(position == 0){
-                    Intent intent = new Intent(MainActivity.this,PopsicleCategoryActivity.class);
+                    Intent intent = new Intent(MainActivity.this,PopsicleCategroryActivity.class);
                     startActivity(intent);
                 }
             }
