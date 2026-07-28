@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PaletasGol">
         <activity
+            android:name=".PopsicleActivity"
+            android:exported="false" />
+        <activity
             android:name=".PopsicleCategroryActivity"
             android:exported="false" />
         <activity

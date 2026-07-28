@@ -45,4 +45,7 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list_options);
         listView.setOnItemClickListener(itemClickListener);
     }
+    public MainActivity(){
+        super(R.layout.activity_main);
+    }
 }

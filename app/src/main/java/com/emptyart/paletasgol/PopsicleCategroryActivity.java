@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
+import android.view.View;
+import android.content.Intent;
+import android.widget.AdapterView;
 /**
  *            |    |    |
  *           )_)  )_)  )_)
@@ -45,5 +47,20 @@ public class PopsicleCategroryActivity extends AppCompatActivity {
                 Popsicle.popsicles);
         ListView listPopsicles =(ListView) findViewById(R.id.list_popsicles);
         listPopsicles.setAdapter(listAdapter);
+        //create the listener
+        AdapterView.OnItemClickListener itemClickListener = new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> listPopsicles, View itemView, int position, long id) {
+                //Pass the drink the user clicks
+                Intent intent = new Intent(PopsicleCategroryActivity.this,Popsicle.class);
+                intent.putExtra(PopsicleActivity.EXTRA_POPSICLEID,(int) id);
+                startActivity(intent);
+            }
+        };
+        //Assign the listener to the list view
+        listPopsicles.setOnItemClickListener(itemClickListener);
+    }
+
+    public PopsicleCategroryActivity(){
+        super(R.layout.activity_popsicle_categrory);
     }
 }
