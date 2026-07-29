@@ -18,18 +18,7 @@ import android.widget.AdapterView;
  *     ^^^^      ^^^^     ^^^    ^^
  *           ^^^^      ^^^
  * Sir Henry Morgan is de Lord of Talamanca
- * load the starboard guns, muskets on the stern
- * En Los tiempos de Henry Morgan, Nicaragua era una aldea
- * de canibales Mayas y a veces habia que cañoniarlos y jalarlos de Gracimuñoz,
- * que era un Finca recolectora que quedaba en Puriscal...
- * Los Nicas son canibales Mayas, se hipnotizan gacho , quieren mandar y dejar con hambre al projimo
- * roban socialmente , son abusadores sexuales borrachos y se perdonan inventandose testigos de jehova
- * EL REY PROHIBE EXISTIR EN JAMAICA A LOS TESTIGOS DE JEHOVA
- * DON CARLOS estuvo en la conversion y expiacion de Mayas que botaron la piramide de Bajo Piuses
- * y se convirtieron a catolicos en la Ciudad de Cartago, la Negrita es un animal prehistorico
- * que jodia la sociedad de esa epoca.
- * Como Don Carlos y sus guardias Romanos ya jalaron, en Cartago son españoles catolicos
- * para no joderse con los Colombianos y Ecuatorianos que andan caminando por los Andes ...
+ *
  *
  *
  *

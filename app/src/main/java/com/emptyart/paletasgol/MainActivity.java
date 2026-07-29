@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.view.View;
+import android.app.Activity;
 /**
  *            |    |    |
  *           )_)  )_)  )_)
@@ -25,7 +26,7 @@ import android.view.View;
  *
  * @author Rolando <rgarro@gmail.com>
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +45,5 @@ public class MainActivity extends AppCompatActivity {
         //Add the listener to the listView
         ListView listView = (ListView) findViewById(R.id.list_options);
         listView.setOnItemClickListener(itemClickListener);
-    }
-    public MainActivity(){
-        super(R.layout.activity_main);
     }
 }

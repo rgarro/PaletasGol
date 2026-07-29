@@ -10,11 +10,6 @@ package com.emptyart.paletasgol;
  *     ^^^^      ^^^^     ^^^    ^^
  *           ^^^^      ^^^
  * Sir Henry Morgan is de Lord of Talamanca
- * Joseph Bradley IceCream Shop is located at Barbados
- * una Colombian girl he fred while ridding Cartagena makes them ...
- * King Charles himself bought several boxes and once gave some to the Pope himself.
- * They ate them during the Hanging of criminals in Cornwall ...
- * 
  *
  *
  *

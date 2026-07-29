@@ -16,11 +16,7 @@ import android.content.Intent;
  *     ^^^^      ^^^^     ^^^    ^^
  *           ^^^^      ^^^
  * Sir Henry Morgan is de Lord of Talamanca
- * load the starboard guns, muskets on the stern
- * Billy boy was a brave lesbian fighter who served with Morgan.
- * era fea y hacia bailes de cosplay para verse hermosa
- * La Madera de la Perla Negra fue utilizada en la Basilica de Cartago
- * donde Billy Boy prometio NO FOLLAR HEMBRAS JAMAS
+ *
  *
  *
  *
@@ -35,8 +31,7 @@ public class PopsicleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_popsicle);
         //get the popsicle from the intent
-        Intent intent = getIntent();
-        int popsicleId = (Integer) intent.getExtras().get(EXTRA_POPSICLEID);
+        int popsicleId = (Integer) getIntent().getExtras().get(EXTRA_POPSICLEID);
         Popsicle popsicle = Popsicle.popsicles[popsicleId];
         //populate the popsicle name
         TextView name = (TextView) findViewById(R.id.name);
