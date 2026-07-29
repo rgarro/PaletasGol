@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.content.Intent;
+import android.app.Activity;
 /**
  *            |    |    |
  *           )_)  )_)  )_)
@@ -22,7 +23,7 @@ import android.content.Intent;
  *
  * @author Rolando <rgarro@gmail.com>
  */
-public class PopsicleActivity extends AppCompatActivity {
+public class PopsicleActivity extends Activity {
 
     public static final String EXTRA_POPSICLEID ="popsicleId";
 

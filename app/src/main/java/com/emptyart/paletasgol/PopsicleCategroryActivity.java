@@ -7,6 +7,7 @@ import android.widget.ListView;
 import android.view.View;
 import android.content.Intent;
 import android.widget.AdapterView;
+import android.app.Activity;
 /**
  *            |    |    |
  *           )_)  )_)  )_)
@@ -25,7 +26,7 @@ import android.widget.AdapterView;
  *
  * @author Rolando <rgarro@gmail.com>
  */
-public class PopsicleCategroryActivity extends AppCompatActivity {
+public class PopsicleCategroryActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,9 +48,5 @@ public class PopsicleCategroryActivity extends AppCompatActivity {
         };
         //Assign the listener to the list view
         listPopsicles.setOnItemClickListener(itemClickListener);
-    }
-
-    public PopsicleCategroryActivity(){
-        super(R.layout.activity_popsicle_categrory);
     }
 }
