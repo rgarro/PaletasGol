@@ -2,6 +2,9 @@ package com.emptyart.paletasgol;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.content.Intent;
@@ -31,6 +34,16 @@ public class PopsicleActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_popsicle);
+        final Button button = findViewById(R.id.button_id);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Pagaron La Paleta y La Hagarraron ,como operador del android luego haga click en este boton
+                Log.d("123 probando","123 probando");
+                //Mientras Pagan les logea en Helado en el cloud y eso incrementa la satisfaccion del customer
+                // ocupo hecharle esta hablada a unos financiados del INCAE a ver si me gano algo y me voy a California
+                //En california me hago un Swift haciendo tally pasando swift creek por donde un pino se cayo
+            }
+        });
         //get the popsicle from the intent
         int popsicleId = (Integer) getIntent().getExtras().get(EXTRA_POPSICLEID);
         Popsicle popsicle = Popsicle.popsicles[popsicleId];
