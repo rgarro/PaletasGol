@@ -37,13 +37,8 @@ public class PopsicleActivity extends Activity {
         final Button button = findViewById(R.id.button_id);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Pagaron La Paleta y La Hagarraron ,como operador del android luego haga click en este boton
-                //Mientras Pagan les logea en Helado en el Posgre Connect que es de logo de elefante comiendo helado
+                //Posgre connect here
                 Log.d("123 probando","123 probando");
-                //La Paleta aumento la caja y fue probada el sabor y la satisfaccion quedan en la mente
-                // casi sacado del Manual de PNL de la Policia de Videla!! Falklands are British y a mi videla no me hipnotiza
-                // ocupo hecharle esta hablada a unos financiados del INCAE a ver si me gano algo y me voy a California
-                //En california me hago un Swift haciendo tally pasando swift creek por donde un pino se cayo
             }
         });
         //get the popsicle from the intent
